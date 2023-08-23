@@ -1,0 +1,2969 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+/* font-family: 'Poiret One', cursive; */
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width:1px){
+    nav{
+        background-color: white;
+        height: 220px;
+        width: 100%;
+    }
+
+    nav img{
+        height: 50px;
+        width: 100px;
+        margin-left: 50px;
+    }
+
+    .barra{
+        padding: auto;
+    }
+    
+    .barra li{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        font-family: 'Poiret One', cursive;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .barra ul{
+        list-style: none;
+    }
+
+    .barra a{
+        text-decoration: none;
+        color: rgb(39, 43, 46);
+    }
+
+    .barra a:hover{
+        color: #ebcda1;
+    }
+
+    .art1{
+        height: 200px;
+        width: 100%;
+        background-image: url(./fotosGeneral/fondo2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .art1 h1{
+        color: antiquewhite;
+        text-align: left;
+        font-size: 15px;
+        font-family: 'Poiret One', cursive;
+        padding: 10px 30px;
+    }
+
+    .art2{
+        height: 200px;
+        width: 100%;
+        background-image: url(./fotosGeneral/fondo1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .art2 h1{
+        color: rgb(192, 172, 118);
+        text-align: right;
+        padding: 20px 60px;
+        font-size: 15px;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .art2 h1 span{
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .destinos{
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-image: url(/fotosGeneral/fondo3.png);
+    }
+
+    .p1{
+        font-family: 'Poiret One', cursive;
+        text-align: center;
+        font-size: 12px;
+        padding: 30px 0px;
+        color: rgb(39, 43, 46);
+    }
+
+    .p2{
+        font-family: 'Poiret One', cursive;
+        text-align: center;
+        font-size: 12px;
+        color: rgb(39, 43, 46);
+    }
+
+    .flex{
+        width: 70%;
+        overflow-x: auto;
+        display: flex;
+        scroll-snap-type: x mandatory;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .flex img{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        scroll-snap-align: center;
+        border-radius: 20px;
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    .vermas{
+        margin-top: 85px;
+        height: 80px;
+        text-align: center;
+        margin-top: 0 auto;
+    }
+
+    .vermas a{
+        background-color: #ebcda1;
+        font-family: 'Poiret One', cursive;
+        font-weight: bold;
+        color: rgb(39, 43, 46);
+        border-radius: 10px;
+        font-size: 12px;
+        border: 15px solid #ebcda1;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .vermas a:hover{
+        color: white;
+    }
+
+    footer{
+        width: 100%;
+        height: 200px;
+        background-color: rgb(39, 43, 46);
+        padding: 0 auto;
+    }
+
+    footer h2{
+        font-family: 'Poiret One', cursive;
+        font-size: 12px;
+        color: #ebcda1;
+        text-align: center;
+        padding: 15px;
+    }
+
+    footer div{
+        font-family: 'Poiret One', cursive;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+        width: 32%;
+        height: 40px;
+
+    }
+
+    footer div a{
+        text-decoration: none;
+        color: #ebcda1;
+        font-size: 20px;
+        padding: 20px;
+        border: 2px solid #ebcda1;
+        border-radius: 20px;
+    }
+
+    footer p{
+        font-family: 'Poiret One', cursive;
+        color: #ebcda1;
+        text-align: center;
+        margin-top: 15px;
+        padding: 20px;
+        font-size: 8px;
+    }
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------480px----------------------------------------------------*/
+
+@media only screen and (min-width:480px){
+    nav{
+        background-color: white;
+        height: 270px;
+        width: 100%;
+    }
+
+    nav img{
+        height: 70px;
+        width: 140px;
+        margin-left: 200px;
+    }
+
+    .barra{
+        padding: auto;
+    }
+    
+    .barra li{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-right: 25px;
+        font-family: 'Poiret One', cursive;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .barra ul{
+        list-style: none;
+    }
+
+    .barra a{
+        text-decoration: none;
+        color: rgb(39, 43, 46);
+    }
+
+    .barra a:hover{
+        color: #ebcda1;
+    }
+
+    .art1{
+        height: 350px;
+        width: 100%;
+        background-image: url(/fotosGeneral/fondo2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .art1 h1{
+        color: antiquewhite;
+        text-align: left;
+        font-size: 25px;
+        font-family: 'Poiret One', cursive;
+        padding: 30px 50px;
+    }
+
+    .art2{
+        height: 350px;
+        width: 100%;
+        background-image: url(/fotosGeneral/fondo1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .art2 h1{
+        color: rgb(192, 172, 118);
+        text-align: right;
+        padding: 20px 60px;
+        font-size: 25px;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .art2 h1 span{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .destinos{
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+        background-image: url(/fotosGeneral/fondo3.png);
+    }
+
+    .p1{
+        font-family: 'Poiret One', cursive;
+        text-align: center;
+        font-size: 17px;
+        padding: 60px 0px;
+        color: rgb(39, 43, 46);
+    }
+
+    .p2{
+        font-family: 'Poiret One', cursive;
+        text-align: center;
+        font-size: 17px;
+        color: rgb(39, 43, 46);
+    }
+
+    .flex{
+        width: 90%;
+        overflow-x: auto;
+        display: flex;
+        scroll-snap-type: x mandatory;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .flex img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        scroll-snap-align: center;
+        border-radius: 20px;
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    .vermas{
+        height: 100px;
+        text-align: center;
+        margin-top: 0 auto;
+    }
+
+    .vermas a{
+        background-color: #ebcda1;
+        font-family: 'Poiret One', cursive;
+        font-weight: bold;
+        color: rgb(39, 43, 46);
+        border-radius: 10px;
+        font-size: 17px;
+        border: 20px solid #ebcda1;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .vermas a:hover{
+        color: white;
+    }
+
+    footer{
+        width: 100%;
+        height: 300px;
+        background-color: rgb(39, 43, 46);
+        padding: 0 auto;
+    }
+
+    footer h2{
+        font-family: 'Poiret One', cursive;
+        font-size: 18px;
+        color: #ebcda1;
+        text-align: center;
+        padding: 15px;
+    }
+
+    footer div{
+        font-family: 'Poiret One', cursive;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+        width: 32%;
+        height: 70px;
+
+    }
+
+    footer div a{
+        text-decoration: none;
+        color: #ebcda1;
+        font-size: 40px;
+        padding: 20px;
+        border: 2px solid #ebcda1;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+
+    footer div a:hover{
+        color: #ebcda1;
+    }
+
+    footer p{
+        font-family: 'Poiret One', cursive;
+        color: #ebcda1;
+        text-align: center;
+        margin-top: 35px;
+        padding: 20px;
+    }
+}
+
+
+
+
+
+/*----------------------------------------------------------------------------------------762px----------------------------------------------------------------------*/
+
+
+
+
+
+@media only screen and (min-width:762px){
+    nav{
+        background-color: white;
+        height: 70px;
+        width: 100%;
+    }
+
+    nav img{
+        height: 50px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .barra{
+        float: right;
+    }
+    
+    .barra li{
+        display: inline-block;
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-top: 25px;
+        font-family: 'Poiret One', cursive;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .barra ul{
+        list-style: none;
+    }
+
+    .barra a{
+        text-decoration: none;
+        color: rgb(39, 43, 46);
+    }
+
+    .barra a:hover{
+        color: #ebcda1;
+    }
+
+    .art1{
+        height: 450px;
+        width: 100%;
+        background-image: url(/fotosGeneral/fondo2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .art1 h1{
+        color: antiquewhite;
+        text-align: left;
+        font-size: 35px;
+        font-family: 'Poiret One', cursive;
+        padding: 30px 50px;
+    }
+
+    .art2{
+        height: 450px;
+        width: 100%;
+        background-image: url(/fotosGeneral/fondo1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .art2 h1{
+        color: rgb(192, 172, 118);
+        text-align: right;
+        padding: 20px 60px;
+        font-size: 35px;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .art2 h1 span{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .destinos{
+        width: 100%;
+        height: 700px;
+        background-size: cover;
+        background-image: url(/fotosGeneral/fondo3.png);
+    }
+
+    .p1{
+        font-family: 'Poiret One', cursive;
+        text-align: center;
+        font-size: 25px;
+        padding: 60px 0px;
+        color: rgb(39, 43, 46);
+    }
+
+    .p2{
+        font-family: 'Poiret One', cursive;
+        text-align: center;
+        font-size: 25px;
+        color: rgb(39, 43, 46);
+    }
+
+    .flex{
+        width: 60%;
+        overflow-x: auto;
+        display: flex;
+        scroll-snap-type: x mandatory;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .flex img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        scroll-snap-align: center;
+        border-radius: 20px;
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    .vermas{
+        height: 100px;
+        text-align: center;
+        margin-top: 0 auto;
+    }
+
+    .vermas a{
+        background-color: #ebcda1;
+        font-family: 'Poiret One', cursive;
+        font-weight: bold;
+        color: rgb(39, 43, 46);
+        border-radius: 10px;
+        font-size: 19px;
+        border: 20px solid #ebcda1;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .vermas a:hover{
+        color: white;
+    }
+
+    footer{
+        width: 100%;
+        height: 300px;
+        background-color: rgb(39, 43, 46);
+        padding: 0 auto;
+    }
+
+    footer h2{
+        font-family: 'Poiret One', cursive;
+        color: #ebcda1;
+        text-align: center;
+        padding: 15px;
+    }
+
+    footer div{
+        font-family: 'Poiret One', cursive;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+        width: 32%;
+        height: 70px;
+
+    }
+
+    footer div a{
+        text-decoration: none;
+        color: #ebcda1;
+        font-size: 50px;
+        padding: 40px;
+        margin-left: 25px;
+        border: 2px solid #ebcda1;
+        border-radius: 20px;
+    }
+
+    footer p{
+        font-family: 'Poiret One', cursive;
+        color: #ebcda1;
+        text-align: center;
+        margin-top: 35px;
+        padding: 20px;
+    }
+}
+
+
+/*--------------------------------------------------------------------------1020px--------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+@media only screen and (min-width:1020px){
+    nav{
+        background-color: white;
+        height: 70px;
+        width: 100%;
+    }
+
+    nav img{
+        height: 50px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .barra{
+        float: right;
+    }
+    
+    .barra li{
+        display: inline-block;
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-top: 25px;
+        font-family: 'Poiret One', cursive;
+        font-weight: bold;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .barra ul{
+        list-style: none;
+    }
+
+    .barra a{
+        text-decoration: none;
+        color: rgb(39, 43, 46);
+    }
+
+    .barra a:hover{
+        color: #ebcda1;
+    }
+
+    .art1{
+        height: 700px;
+        width: 100%;
+        background-image: url(/fotosGeneral/fondo2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .art1 h1{
+        color: antiquewhite;
+        text-align: left;
+        font-size: 40px;
+        font-family: 'Poiret One', cursive;
+        padding: 60px 100px;
+    }
+
+    .art2{
+        height: 700px;
+        width: 100%;
+        background-image: url(/fotosGeneral/fondo1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .art2 h1{
+        color: rgb(192, 172, 118);
+        text-align: right;
+        padding: 40px 120px;
+        font-size: 40px;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .art2 h1 span{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .destinos{
+        width: 100%;
+        height: 800px;
+        background-size: cover;
+        background-image: url(/fotosGeneral/fondo3.png);
+    }
+
+    .p1{
+        font-family: 'Poiret One', cursive;
+        text-align: center;
+        font-size: 25px;
+        padding: 60px 0px;
+        color: rgb(39, 43, 46);
+    }
+
+    .p2{
+        font-family: 'Poiret One', cursive;
+        text-align: center;
+        font-size: 25px;
+        color: rgb(39, 43, 46);
+    }
+
+    .flex{
+        width: 60%;
+        overflow-x: auto;
+        display: flex;
+        scroll-snap-type: x mandatory;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .flex img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        scroll-snap-align: center;
+        border-radius: 20px;
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    .vermas{
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        margin-top: 0 auto;
+    }
+
+    .vermas a{
+        background-color: #ebcda1;
+        font-family: 'Poiret One', cursive;
+        font-weight: bold;
+        color: rgb(39, 43, 46);
+        border-radius: 10px;
+        font-size: 19px;
+        border: 20px solid #ebcda1;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .vermas a:hover{
+        color: white;
+    }
+
+    footer{
+        width: 100%;
+        height: 300px;
+        background-color: rgb(39, 43, 46);
+        padding: 0 auto;
+    }
+
+    footer h2{
+        font-family: 'Poiret One', cursive;
+        color: #ebcda1;
+        text-align: center;
+        padding: 15px;
+    }
+
+    footer div{
+        font-family: 'Poiret One', cursive;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+        width: 33%;
+        height: 70px;
+
+    }
+
+    footer div a{
+        text-decoration: none;
+        color: #ebcda1;
+        font-size: 50px;
+        padding: 40px;
+        margin-left: 25px;
+        border: 2px solid #ebcda1;
+        border-radius: 20px;
+    }
+
+    footer p{
+        font-family: 'Poiret One', cursive;
+        color: #ebcda1;
+        text-align: center;
+        margin-top: 35px;
+        padding: 20px;
+    }
+}
+
+
+
+@media only screen and (min-width:1px){
+    .glaciar{
+        width: 100%;
+        height: 300px;
+        background-image: url(/fotosGeneral/glaciar.jpg);
+        background-size: cover;
+    }
+
+    .up{
+        background-color: #ebcda1;
+        height: 20px;
+        width: 20px;
+        text-align: center;
+        position: fixed;
+        right: 5px;
+        bottom: 100px;
+    }
+
+    .lugares{
+        width: 100%;
+        height: 270px;
+    }
+
+    .lugar1 p{
+        font-family: 'Poiret One', cursive;
+        text-align: center;
+        font-size: 15px;
+        color: rgb(39, 43, 46);
+        padding: 40px 0px;
+    }
+    
+    section{
+        background-color: white;
+        background-size: cover;
+        width: 100%;
+        height: 100px;
+        padding: 35px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(14, 150px);
+    }
+
+
+    .item{
+        border: 2px solid white;
+        border-radius: 40px;
+        margin: 6px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .blea{
+        background-image: url(/fotosDestinos/Bañado\ la\ Estrella.jpeg);
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .cdia{
+        background-image: url(fotosDestinos/Cataratas\ del\ Iguazu.jpeg);
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .cdaa{
+        background-image: url(/fotosDestinos/Cañon\ de\ Atuel.jpeg);
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .cca{
+        background-image: url(/fotosDestinos/Cusi\ Cusi.jpeg);
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .eca{
+        background-image: url(/fotosDestinos/El\ Chaltén.png);
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    .eha{
+        background-image: url(/fotosDestinos/El\ Hornocal.jpeg);
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+
+    .gpma{
+        background-image: url(/fotosDestinos/Glaciar\ Perito\ Moreno.jpeg);
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+
+    .ppca{
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Copahue.jpeg);
+        grid-column: 1/2;
+        grid-row: 8/9;
+    }
+
+    .pnla{
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Lanín.jpeg);
+        grid-column: 1/2;
+        grid-row: 9/10;
+    }
+
+    .pnlca{
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Los\ Cardones.jpeg);
+        grid-column: 1/2;
+        grid-row: 10/11;
+    }
+
+    .pnmla{
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Monte\ León.jpeg);
+        grid-column: 1/2;
+        grid-row: 11/12;
+    }
+
+    .sga{
+        background-image: url(/fotosDestinos/Salinas\ Grandes.jpeg);
+        grid-column: 1/2;
+        grid-row: 12/13;
+    }
+
+    .srdca{
+        background-image: url(/fotosDestinos/Santa\ Rosa\ de\ Calamuchita.jpeg);
+        grid-column: 1/2;
+        grid-row: 13/14;
+
+    }
+
+    .tga{
+        background-image: url(/fotosDestinos/Tolar\ Grande.jpeg);
+        grid-column: 1/2;
+        grid-row: 14/15;
+    }
+
+    .main1{
+        height: auto;
+        width: 100%;
+        display: grid;
+        padding: 35px;
+        margin-top: 2100px;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(14, auto);
+    }
+
+    .ble{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .ble img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .ble h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .ble p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .cdi{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .cdi img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .cdi h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .cdi p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .cda{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .cda img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .cda h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .cda p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }   
+
+    .cc{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .cc img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .cc h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .cc p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .ec{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    .ec img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .ec h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .ec p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .eh{
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+
+    .eh img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .eh h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .eh p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .gpm{
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+
+    .gpm img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .gpm h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .gpm p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .mdq{
+        grid-column: 1/2;
+        grid-row: 8/9;
+    }
+
+    .mdq img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .mdq h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .mdq p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .ppc{
+        grid-column: 1/2;
+        grid-row: 9/10;
+    }
+
+    .ppc img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .ppc h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .ppc p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+
+    .pnl{
+        grid-column: 1/2;
+        grid-row: 10/11;
+    }
+
+    .pnl img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .pnl h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .pnl p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .pnlc{
+        grid-column: 1/2;
+        grid-row: 11/12;
+    }
+
+    .pnlc img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .pnlc h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .pnlc p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .pnml{
+        grid-column: 1/2;
+        grid-row: 12/13;
+    }
+
+    .pnml img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .pnml h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .pnml p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .sg{
+        grid-column: 1/2;
+        grid-row: 13/14;
+    }
+
+    .sg img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .sg h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .sg p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .srdc{
+        grid-column: 1/2;
+        grid-row: 14/15;
+    }
+
+    .srdc img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .srdc h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .srdc p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .tg{
+        grid-column: 1/2;
+        grid-row: 15/16;
+    }
+
+    .tg img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .tg h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .tg p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+}
+
+
+/* ----------------480--------------*/
+    /*-------------480-----------*/
+
+@media only screen and (min-width:480px){
+    .up{
+        background-color: #ebcda1;
+        height: 30px;
+        width: 30px;
+        font-size: 20px;
+        text-align: center;
+        position: fixed;
+        right: 5px;
+        bottom: 100px;
+        border-radius: 10px;
+    }
+
+    section{
+        background-color: white;
+        height: 800px;
+        padding: 35px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, 150px);
+    }
+
+    .item{
+        border: 2px solid white;
+        border-radius: 40px;
+        margin: 6px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .blea{
+        background-image: url(/fotosDestinos/Bañado\ la\ Estrella.jpeg);
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .cdia{
+        background-image: url(/fotosDestinos/Cataratas\ del\ Iguazu.jpeg);
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .cdaa{
+        background-image: url(/fotosDestinos/Cañon\ de\ Atuel.jpeg);
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .cca{
+        background-image: url(/fotosDestinos/Cusi\ Cusi.jpeg);
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .eca{
+        background-image: url(/fotosDestinos/El\ Chaltén.png);
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .eha{
+        background-image: url(/fotosDestinos/El\ Hornocal.jpeg);
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .gpma{
+        background-image: url(/fotosDestinos/Glaciar\ Perito\ Moreno.jpeg);
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .ppca{
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Copahue.jpeg);
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
+    .pnla{
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Lanín.jpeg);
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    .pnlca{
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Los\ Cardones.jpeg);
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+
+    .pnmla{
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Monte\ León.jpeg);
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+
+    .sga{
+        background-image: url(/fotosDestinos/Salinas\ Grandes.jpeg);
+        grid-column: 2/3;
+        grid-row: 6/7;
+    }
+
+    .srdca{
+        background-image: url(/fotosDestinos/Santa\ Rosa\ de\ Calamuchita.jpeg);
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+
+    .tga{
+        background-image: url(/fotosDestinos/Tolar\ Grande.jpeg);
+        grid-column: 2/3;
+        grid-row: 7/8;
+    }
+
+    .main1{
+        height: auto;
+        width: 100%;
+        display: grid;
+        padding: 35px;
+        margin-top: 1200px;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(14, auto);
+    }
+
+    .ble{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .ble img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .ble h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .ble p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .cdi{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .cdi img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .cdi h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .cdi p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .cda{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .cda img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .cda h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .cda p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }   
+
+    .cc{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .cc img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .cc h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .cc p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .ec{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    .ec img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .ec h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .ec p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .eh{
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+
+    .eh img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .eh h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .eh p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .gpm{
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+
+    .gpm img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .gpm h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .gpm p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .mdq{
+        grid-column: 1/2;
+        grid-row: 8/9;
+    }
+
+    .mdq img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .mdq h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .mdq p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .ppc{
+        grid-column: 1/2;
+        grid-row: 9/10;
+    }
+
+    .ppc img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .ppc h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .ppc p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+
+    .pnl{
+        grid-column: 1/2;
+        grid-row: 10/11;
+    }
+
+    .pnl img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .pnl h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .pnl p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .pnlc{
+        grid-column: 1/2;
+        grid-row: 11/12;
+    }
+
+    .pnlc img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .pnlc h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .pnlc p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .pnml{
+        grid-column: 1/2;
+        grid-row: 12/13;
+    }
+
+    .pnml img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .pnml h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .pnml p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .sg{
+        grid-column: 1/2;
+        grid-row: 13/14;
+    }
+
+    .sg img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .sg h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .sg p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .srdc{
+        grid-column: 1/2;
+        grid-row: 14/15;
+    }
+
+    .srdc img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .srdc h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .srdc p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .tg{
+        grid-column: 1/2;
+        grid-row: 15/16;
+    }
+
+    .tg img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .tg h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .tg p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+}
+
+
+/*--------------------------768-------------------------*/
+    /*---------------------768---------------------*/
+
+
+
+
+@media only screen and (min-width:768px){
+
+    .glaciar{
+        width: 100%;
+        height: 450px;
+        background-image: url(/fotosGeneral/glaciar.jpg);
+        background-size: cover;
+    }
+
+    .lugares{
+        width: 100%;
+        height: 270px;
+    }
+
+    .lugar1 p{
+        font-family: 'Poiret One', cursive;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(39, 43, 46);
+        padding: 40px 0px;
+    }
+
+    .up{
+        background-color: #ebcda1;
+        height: 40px;
+        width: 40px;
+        font-size: 30px;
+        text-align: center;
+        position: fixed;
+        right: 5px;
+        bottom: 100px;
+        border-radius: 10px;
+    }
+
+    section{
+        background-color: white;
+        height: 800px;
+        padding: 35px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 200px);
+    }
+
+    .item{
+        border: 2px solid white;
+        border-radius: 40px;
+        margin: 6px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .blea{
+        background-image: url(/fotosDestinos/Bañado\ la\ Estrella.jpeg);
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .cdia{
+        background-image: url(/fotosDestinos/Cataratas\ del\ Iguazu.jpeg);
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .cdaa{
+        background-image: url(fotosDestinos/Cañon\ de\ Atuel.jpeg);
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .cca{
+        background-image: url(/fotosDestinos/Cusi\ Cusi.jpeg);
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+
+    .eca{
+        background-image: url(/fotosDestinos/El\ Chaltén.png);
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .eha{
+        background-image: url(/fotosDestinos/El\ Hornocal.jpeg);
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+
+    .gpma{
+        background-image: url(/fotosDestinos/Glaciar\ Perito\ Moreno.jpeg);
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+
+    .ppca{
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Copahue.jpeg);
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .pnla{
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Lanín.jpeg);
+        grid-column: 2/4;
+        grid-row: 3/4;
+    }
+
+    .pnlca{
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Los\ Cardones.jpeg);
+        grid-column: 4/5;
+        grid-row: 3/4;
+    }
+
+    .pnmla{
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Monte\ León.jpeg);
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .sga{
+        background-image: url(/fotosDestinos/Salinas\ Grandes.jpeg);
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
+    .srdca{
+        background-image: url(/fotosDestinos/Santa\ Rosa\ de\ Calamuchita.jpeg);
+        grid-column: 3/4;
+        grid-row: 4/5;
+
+    }
+
+    .tga{
+        background-image: url(/fotosDestinos/Tolar\ Grande.jpeg);
+        grid-column: 4/5;
+        grid-row: 4/5;
+    }
+
+    .main1{
+        height: auto;
+        width: 100%;
+        display: grid;
+        padding: 150px;
+        margin-top: 800px;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(14, auto);
+    }
+
+    .ble{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .ble img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .ble h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .ble p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .cdi{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .cdi img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .cdi h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .cdi p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .cda{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .cda img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .cda h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .cda p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }   
+
+    .cc{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .cc img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .cc h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .cc p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .ec{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    .ec img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .ec h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .ec p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .eh{
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+
+    .eh img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .eh h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .eh p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .gpm{
+        margin-top: 20px;
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+
+    .gpm img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .gpm h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .gpm p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+
+    .ppc{
+        grid-column: 1/2;
+        grid-row: 9/10;
+    }
+
+    .ppc img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .ppc h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .ppc p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .pnl{
+        margin-top: 20px;
+        grid-column: 1/2;
+        grid-row: 10/11;
+    }
+
+    .pnl img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .pnl h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .pnl p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .pnlc{
+        grid-column: 1/2;
+        grid-row: 11/12;
+    }
+
+    .pnlc img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .pnlc h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .pnlc p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .pnml{
+        grid-column: 1/2;
+        grid-row: 12/13;
+    }
+
+    .pnml img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .pnml h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .pnml p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+
+    .sg{
+        margin-top: 20px;
+        grid-column: 1/2;
+        grid-row: 13/14;
+    }
+
+    .sg img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .sg h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .sg p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .srdc{
+        margin-top: 20px;
+        grid-column: 1/2;
+        grid-row: 14/15;
+    }
+
+    .srdc img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .srdc h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .srdc p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .tg{
+        grid-column: 1/2;
+        grid-row: 15/16;
+    }
+
+    .tg img{
+        margin-top: 15px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .tg h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .tg p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+}
+
+
+/*-----------------------------------------------1400--------------------------------*/
+
+
+
+
+
+@media only screen and (min-width:1400px){
+    .glaciar{
+        width: 100%;
+        height: 600px;
+        background-image: url(/fotosGeneral/glaciar.jpg);
+        background-size: cover;
+    }
+
+    .lugares{
+        width: 100%;
+        height: 270px;
+    }
+
+    .lugar1 p{
+        font-family: 'Poiret One', cursive;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(39, 43, 46);
+        padding: 40px 0px;
+    }
+
+    .up{
+        background-color: #ebcda1;
+        height: 40px;
+        width: 40px;
+        font-size: 30px;
+        text-align: center;
+        position: fixed;
+        right: 15px;
+        bottom: 70px;
+        border-radius: 10px;
+    }
+
+    section{
+        background-color: white;
+        height: 600px;
+        padding: 35px;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(2, 200px);
+    }
+
+    .item{
+        border: 2px solid white;
+        border-radius: 40px;
+        margin: 6px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .blea{
+        background-image: url(/fotosDestinos/Bañado\ la\ Estrella.jpeg);
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .cdia{
+        background-image: url(/fotosDestinos/Cataratas\ del\ Iguazu.jpeg);
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .cdaa{
+        background-image: url(/fotosDestinos/Cañon\ de\ Atuel.jpeg);
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .cca{
+        background-image: url(/fotosDestinos/Cusi\ Cusi.jpeg);
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+
+    .eca{
+        background-image: url(/fotosDestinos/El\ Chaltén.png);
+        grid-column: 5/6;
+        grid-row: 1/2;
+    }
+
+    .eha{
+        background-image: url(/fotosDestinos/El\ Hornocal.jpeg);
+        grid-column: 6/7;
+        grid-row: 1/2;
+    }
+
+    .gpma{
+        background-image: url(/fotosDestinos/Glaciar\ Perito\ Moreno.jpeg);
+        grid-column: 7/8;
+        grid-row: 1/2;
+    }
+
+    .ppca{
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Copahue.jpeg);
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .pnla{
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Lanín.jpeg);
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .pnlca{
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Los\ Cardones.jpeg);
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+    .pnmla{
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Monte\ León.jpeg);
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+
+    .sga{
+        background-image: url(/fotosDestinos/Salinas\ Grandes.jpeg);
+        grid-column: 5/6;
+        grid-row: 2/3;
+    }
+
+    .srdca{
+        background-image: url(/fotosDestinos/Santa\ Rosa\ de\ Calamuchita.jpeg);
+        grid-column: 6/7;
+        grid-row: 2/3;
+
+    }
+
+    .tga{
+        background-image: url(/fotosDestinos/Tolar\ Grande.jpeg);
+        grid-column: 7/8;
+        grid-row: 2/3;
+    }
+
+    .main1{
+        height: auto;
+        width: 100%;
+        display: grid;
+        padding: 150px;
+        margin-top: 300px;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(14, auto);
+    }
+
+    .ble{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .ble img{
+        margin-top: 15px;
+        margin-left: 240px;
+        border-radius: 50px;
+        width: 60%;
+    }
+
+    .ble h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .ble p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .cdi{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin-top: 20px;
+    }
+
+    .cdi img{
+        margin-top: 15px;
+        margin-left: 240px;
+        border-radius: 50px;
+        width: 60%;
+    }
+
+    .cdi h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .cdi p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .cda{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-top: 20px;
+    }
+
+    .cda img{
+        margin-top: 15px;
+        margin-left: 240px;
+        border-radius: 50px;
+        width: 60%;
+    }
+
+    .cda h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .cda p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }   
+
+    .cc{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        margin-top: 20px;
+    }
+
+    .cc img{
+        margin-top: 15px;
+        margin-left: 240px;
+        border-radius: 50px;
+        width: 60%;
+    }
+
+    .cc h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .cc p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .ec{
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-top: 20px;
+    }
+
+    .ec img{
+        margin-top: 15px;
+        margin-left: 240px;
+        border-radius: 50px;
+        width: 60%;
+    }
+
+    .ec h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .ec p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .eh{
+        grid-column: 1/2;
+        grid-row: 6/7;
+        margin-top: 20px;
+    }
+
+    .eh img{
+        margin-top: 15px;
+        margin-left: 240px;
+        border-radius: 50px;
+        width: 60%;
+    }
+
+    .eh h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .eh p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .gpm{
+        margin-top: 20px;
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+
+    .gpm img{
+        margin-top: 15px;
+        margin-left: 240px;
+        border-radius: 50px;
+        width: 60%;
+    }
+
+    .gpm h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .gpm p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .mdq{
+        grid-column: 1/2;
+        grid-row: 8/9;
+        margin-top: 20px;
+    }
+
+    .mdq img{
+        margin-top: 15px;
+        margin-left: 240px;
+        border-radius: 50px;
+        width: 60%;
+    }
+
+    .mdq h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .mdq p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .ppc{
+        grid-column: 1/2;
+        grid-row: 9/10;
+        margin-top: 20px;
+    }
+
+    .ppc img{
+        margin-top: 15px;
+        margin-left: 240px;
+        border-radius: 50px;
+        width: 60%;
+    }
+
+    .ppc h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .ppc p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .pnl{
+        margin-top: 20px;
+        grid-column: 1/2;
+        grid-row: 10/11;
+    }
+
+    .pnl img{
+        margin-top: 15px;
+        margin-left: 240px;
+        border-radius: 50px;
+        width: 60%;
+    }
+
+    .pnl h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .pnl p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .pnlc{
+        grid-column: 1/2;
+        grid-row: 11/12;
+        margin-top: 20px;
+    }
+
+    .pnlc img{
+        margin-top: 15px;
+        margin-left: 240px;
+        border-radius: 50px;
+        width: 60%;
+    }
+
+    .pnlc h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .pnlc p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .pnml{
+        grid-column: 1/2;
+        grid-row: 12/13;
+        margin-top: 20px;
+    }
+
+    .pnml img{
+        margin-top: 15px;
+        margin-left: 240px;
+        border-radius: 50px;
+        width: 60%;
+    }
+
+    .pnml h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .pnml p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .sg{
+        margin-top: 20px;
+        grid-column: 1/2;
+        grid-row: 13/14;
+    }
+
+    .sg img{
+        margin-top: 15px;
+        margin-left: 240px;
+        border-radius: 50px;
+        width: 60%;
+    }
+
+    .sg h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .sg p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    .srdc{
+        grid-column: 1/2;
+        grid-row: 14/15;
+        margin-top: 20px;
+    }
+
+    .srdc img{
+        margin-top: 15px;
+        margin-left: 240px;
+        border-radius: 50px;
+        width: 60%;
+    }
+
+    .srdc h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .srdc p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .tg{
+        grid-column: 1/2;
+        grid-row: 15/16;
+        margin-top: 20px;
+    }
+
+    .tg img{
+        margin-top: 15px;
+        margin-left: 240px;
+        border-radius: 50px;
+        width: 60%;
+    }
+
+    .tg h4{
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+
+    .tg p{
+        font-family: 'Poiret One', cursive;
+        text-align: justify;
+        margin-top: 20px;
+    }
+}
+
+.fondoconsejos{
+    height: 800px;
+    width: 100%;
+    background-image: url(/fotosGeneral/plains-666927_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.consejos{
+    height: 270px;
+    width: 100%;
+}
+
+.consejos i{
+    font-size: 70px;
+    padding: 50px 70px;
+    margin-left: 80px;
+    margin-top: 25px;
+    border: 2px solid rgb(39, 43, 46);
+    border-radius: 15px;
+}
+
+.tips{
+    height: 1600px;
+    width: 100%;
+    background-image: url(/fotosGeneral/fondo4.png);
+}
+
+.preparativos{
+    font-family: 'Poiret One', cursive;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.preparativos h3{
+    margin-left: 150px; 
+    margin-bottom: 25px;
+}
+
+.preparativos li{
+    margin-left: 300px;
+}
+
+.ruta{
+    font-family: 'Poiret One', cursive;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.ruta h3{
+    margin-top: 75px;
+    margin-left: 150px; 
+    margin-bottom: 25px;
+}
+
+.ruta li{
+    margin-left: 300px;
+    margin-right: 175px;
+}
+
+.fuego{
+    font-family: 'Poiret One', cursive;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.fuego h3{
+    margin-top: 75px;
+    margin-left: 150px; 
+    margin-bottom: 25px;
+}
+
+.fuego li{
+    margin-left: 300px;
+    margin-right: 175px;
+}
+
+.basura{
+    font-family: 'Poiret One', cursive;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.basura h3{
+    margin-top: 75px;
+    margin-left: 150px; 
+    margin-bottom: 25px;
+}
+
+.basura li{
+    margin-left: 300px;
+    margin-right: 175px;
+}
+
+.seguro{
+    font-family: 'Poiret One', cursive;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.seguro h3{
+    margin-top: 75px;
+    margin-left: 150px; 
+    margin-bottom: 25px;
+}
+
+.seguro li{
+    margin-left: 300px;
+    margin-right: 175px;
+}
+
+.argentina{
+    height: 800px;
+    width: 100%;
+    background-image: url(/fotosDestinos/Puerto\ Madryn.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.argentina h1{
+    font-family: 'Poiret One', cursive;
+    font-size: 45px;
+    color: white;
+    text-align: left;
+    padding: 500px 70px;
+}
+
+.info{
+    height: 800px;
+    width: auto;
+    background-image: url(/fotosGeneral/fondo8.png);
+}
+
+.informacion{
+    height: 800px;
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 230px;
+    font-family: 'Poiret One', cursive;
+}
+
+.informacion h3{
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.informacion p{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: justify;
+    background-color: #ebcda15d;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.datosutiles{
+    width: 100%;
+    height: 500px;
+    font-family: 'Poiret One', cursive;
+
+}
+
+.datosutiles h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+table{
+    width: 70%;
+    border-collapse: collapse;
+    margin-left: 250px;
+    margin-top: 50px;
+    border-spacing: 2px;
+}
+
+th, td{
+    padding: 20px;
+
+}
+
+td{
+    font-size: 18px;
+    background-color: #ebcda12d;
+
+}
+
+th{
+    background-color: #ebcda173;
+}
+
+.fondocontacto{
+    height: 600px;
+    width: 100%;
+    background-image: url(/fotosGeneral/ultimo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.datos{
+    height: 100px;
+    width: 100%;
+    font-family: 'Poiret One', cursive;
+}
+
+.datos h3{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 35px;
+}
+
+.datos p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+form{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+form input{
+    width: 50%;
+    border: 2px solid #ebcda1;
+    margin-top: 20px;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+
+}
+
+form textarea{
+    width: 50%;
+    border: 2px solid #ebcda1;
+    margin-top: 20px;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+}
+
+form #enviar{
+    background-color: #ebcda1;
+    border-radius: 10px;
+    font-size: 30px;
+}
